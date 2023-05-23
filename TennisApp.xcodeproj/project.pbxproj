@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		896C37402A1CEA68000D5A95 /* SigninScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C373F2A1CEA68000D5A95 /* SigninScreenViewController.swift */; };
+		896C37422A1CEAAC000D5A95 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C37412A1CEAAC000D5A95 /* HomeScreenViewController.swift */; };
+		896C37442A1CEADA000D5A95 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C37432A1CEADA000D5A95 /* LoginScreenViewController.swift */; };
+		896C37462A1CEB0C000D5A95 /* ProfileScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C37452A1CEB0C000D5A95 /* ProfileScreenViewController.swift */; };
+		896C37482A1CEB34000D5A95 /* BilgilerimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C37472A1CEB34000D5A95 /* BilgilerimViewController.swift */; };
 		89BDFEEF29F55C31005D31F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BDFEEE29F55C31005D31F4 /* AppDelegate.swift */; };
 		89BDFEF129F55C31005D31F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BDFEF029F55C31005D31F4 /* SceneDelegate.swift */; };
 		89BDFEF329F55C31005D31F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BDFEF229F55C31005D31F4 /* ViewController.swift */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		896C373F2A1CEA68000D5A95 /* SigninScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninScreenViewController.swift; sourceTree = "<group>"; };
+		896C37412A1CEAAC000D5A95 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		896C37432A1CEADA000D5A95 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
+		896C37452A1CEB0C000D5A95 /* ProfileScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreenViewController.swift; sourceTree = "<group>"; };
+		896C37472A1CEB34000D5A95 /* BilgilerimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BilgilerimViewController.swift; sourceTree = "<group>"; };
 		89BDFEEB29F55C31005D31F4 /* TennisApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TennisApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89BDFEEE29F55C31005D31F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89BDFEF029F55C31005D31F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +76,11 @@
 				89BDFEFC29F55C36005D31F4 /* LaunchScreen.storyboard */,
 				89BDFEFF29F55C36005D31F4 /* Info.plist */,
 				89BDFEF729F55C31005D31F4 /* TennisApp.xcdatamodeld */,
+				896C373F2A1CEA68000D5A95 /* SigninScreenViewController.swift */,
+				896C37412A1CEAAC000D5A95 /* HomeScreenViewController.swift */,
+				896C37432A1CEADA000D5A95 /* LoginScreenViewController.swift */,
+				896C37452A1CEB0C000D5A95 /* ProfileScreenViewController.swift */,
+				896C37472A1CEB34000D5A95 /* BilgilerimViewController.swift */,
 			);
 			path = TennisApp;
 			sourceTree = "<group>";
@@ -142,9 +157,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				89BDFEF929F55C31005D31F4 /* TennisApp.xcdatamodeld in Sources */,
+				896C37442A1CEADA000D5A95 /* LoginScreenViewController.swift in Sources */,
+				896C37402A1CEA68000D5A95 /* SigninScreenViewController.swift in Sources */,
 				89BDFEF329F55C31005D31F4 /* ViewController.swift in Sources */,
+				896C37462A1CEB0C000D5A95 /* ProfileScreenViewController.swift in Sources */,
+				896C37482A1CEB34000D5A95 /* BilgilerimViewController.swift in Sources */,
 				89BDFEEF29F55C31005D31F4 /* AppDelegate.swift in Sources */,
 				89BDFEF129F55C31005D31F4 /* SceneDelegate.swift in Sources */,
+				896C37422A1CEAAC000D5A95 /* HomeScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@
         <!--HomeScreenViewController-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="HomeScreenViewController" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="ViewController" customModule="TennisApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="HomeScreenViewController" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="HomeScreenViewController" customModule="TennisApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -62,7 +62,7 @@
         <!--SigninScreenViewController-->
         <scene sceneID="dew-lu-ULE">
             <objects>
-                <viewController title="SigninScreenViewController" modalPresentationStyle="fullScreen" id="zXW-OJ-L9k" sceneMemberID="viewController">
+                <viewController title="SigninScreenViewController" modalPresentationStyle="fullScreen" id="zXW-OJ-L9k" customClass="SigninScreenViewController" customModule="TennisApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IU6-Jf-sDg">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -111,6 +111,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Kaydol">
                                     <color key="baseBackgroundColor" red="0.35296112299999999" green="0.78106516599999998" blue="0.22042930129999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="submitButton:" destination="zXW-OJ-L9k" eventType="touchUpInside" id="ak9-ZV-1pg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MWT-dH-wg4">
                                 <rect key="frame" x="71" y="766" width="51" height="35"/>
@@ -151,6 +154,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="x0a-WA-bwI"/>
+                    <connections>
+                        <outlet property="birthDayTextField" destination="rMw-9R-k76" id="4dF-YA-eBZ"/>
+                        <outlet property="genderSegmentedControl" destination="4ad-bl-Ebr" id="eZb-ks-rO6"/>
+                        <outlet property="mailTextField" destination="ZOy-Qv-iUU" id="ryo-Oe-z0v"/>
+                        <outlet property="nameTextField" destination="ZBY-Jp-IIG" id="1mB-e1-cql"/>
+                        <outlet property="phoneNumberTextField" destination="8Jf-CG-8Rb" id="QiB-Vf-0nf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="suM-4g-S0Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -159,7 +169,7 @@
         <!--LoginScreenViewController-->
         <scene sceneID="OvX-FV-Afd">
             <objects>
-                <viewController title="LoginScreenViewController" modalPresentationStyle="fullScreen" id="LZd-M3-GVy" sceneMemberID="viewController">
+                <viewController title="LoginScreenViewController" modalPresentationStyle="fullScreen" id="LZd-M3-GVy" customClass="LoginScreenViewController" customModule="TennisApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="V6I-wQ-C78">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -239,7 +249,7 @@
         <!--ProfileScreenViewController-->
         <scene sceneID="n5A-VD-xOr">
             <objects>
-                <viewController title="ProfileScreenViewController" modalPresentationStyle="fullScreen" id="Hdg-1L-5QF" sceneMemberID="viewController">
+                <viewController title="ProfileScreenViewController" modalPresentationStyle="fullScreen" id="Hdg-1L-5QF" customClass="ProfileScreenViewController" customModule="TennisApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uB6-53-ul3">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -347,15 +357,15 @@
         <!--BilgilerimViewController-->
         <scene sceneID="VYo-0f-YUr">
             <objects>
-                <viewController title="BilgilerimViewController" modalPresentationStyle="fullScreen" id="eBO-Qi-G3K" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="sSa-lj-DUg">
+                <viewController title="BilgilerimViewController" modalPresentationStyle="fullScreen" id="eBO-Qi-G3K" customClass="BilgilerimViewController" customModule="TennisApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="sSa-lj-DUg">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yiF-5B-szC">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yiF-5B-szC">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t0u-Nz-sdX">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t0u-Nz-sdX">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="1500"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  AYARLAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qML-6y-JIJ">
